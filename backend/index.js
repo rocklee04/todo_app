@@ -19,7 +19,7 @@ app.use("/users", userRouter);
 app.use(auth);
 app.use("/notes", noteRouter);
 
-app.listen(process.env.port, async() => {
+app.listen(process.env.port || 5500, async() => {
     try{
         await connection
         console.log("connected to db");
