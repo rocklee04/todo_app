@@ -11,6 +11,9 @@ const app = express()
 //using cors
 app.use(cors())
 app.use(express.json());
+app.get("/", (req, res) => {
+    res.json({"msg" : "Welcome to Homepage"});
+})
 app.use("/users", userRouter);
 
 app.use(auth);
