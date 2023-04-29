@@ -7,8 +7,6 @@ let signUpUserButton = document.getElementById("signUp-user");
 
 
 
-
-
 signUpUserButton.addEventListener("click", loginUser);
 
 function loginUser() {

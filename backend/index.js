@@ -8,6 +8,7 @@ require('dotenv').config()
 
 const app = express()
 
+//using cors
 app.use(cors())
 app.use(express.json());
 app.use("/users", userRouter);

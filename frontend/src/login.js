@@ -3,7 +3,6 @@ let loginUserPassword = document.getElementById("login-user-passowrd");
 let loginUserButton = document.getElementById("login-user");
 
 let userAuthToken = localStorage.getItem("token") || null;
-// let userId = +localStorage.getItem("userId") || null;
 
 const userLoginURL = 'https://scarlet-yak-toga.cyclic.app/users/login';
 
