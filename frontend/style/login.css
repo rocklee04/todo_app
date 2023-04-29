@@ -1,0 +1,28 @@
+.container {
+    margin-bottom: 80px;
+    margin: auto;
+    width: 20%;
+  }
+  
+  .login-box{
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-box input {
+    margin-bottom: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #E1E1E1;
+    padding-left: 20px;
+  }
+
+  .login-box button {
+    background-color: rgb(120, 206, 241);
+    border: 0px;
+    height: 40px;
+    border-radius: 5px;
+  }
